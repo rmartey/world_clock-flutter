@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, deprecated_member_use
 
 import 'package:flutter/material.dart';
 
@@ -20,7 +20,9 @@ class _ChooseLocationState extends State<ChooseLocation> {
         backgroundColor: Colors.blue[900],
         elevation: 0,
       ),
-      body: Text("Locations screen"),
+      body: RaisedButton(
+        onPressed: () {},
+      ),
     );
   }
 }
